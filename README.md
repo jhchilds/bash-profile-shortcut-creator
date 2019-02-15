@@ -23,3 +23,5 @@ alias [alias_name]='source ~/.bash_profile'
 
 I use the alias `   new   `, so that if I want to create a shortcut to a deep directory, I can simply navigate to it,
 type in new, and this program will prompt for an alias name. Use the #2 shortcut above to confirm this recently created shortcut (if you don't do this, your shortcut will not be activated)
+
+Of course, you could just type in the above commands manually, but this is supposed to be a time saver and every keyboard click counts. 
