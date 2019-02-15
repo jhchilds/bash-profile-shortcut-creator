@@ -4,7 +4,7 @@ A very small, but time saving python script that asks user for an alias name, an
 
 ## For Best Results 
 
-###Create 2 shortcuts in your bash profile:
+### Create 2 shortcuts in your bash profile:
 1. Running bash_write.py shortcut
 ```
 sudo nano ~/.bash_profile
