@@ -6,7 +6,7 @@
 import sys
 import os
 
-#using os for hidden file, bash_profile
+#must use os for hidden file, bash_profile
 def write_to_bash_profile(alias,pwd):
     with open(os.path.expanduser('~/.bash_profile'),'a+') as f:
         f.write("alias " + alias + "='cd " + pwd + "'")
