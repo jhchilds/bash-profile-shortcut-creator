@@ -15,8 +15,12 @@ def _main_():
     #user defined alias
     alias = input("Enter Alias Name: ")
     pwd = sys.argv[1]
-    write_to_bash_profile(alias,pwd)
-	print("Update the bash_profile with 'confirm' command")
+    if alias == "":
+        print("You did not provide an Alias")
+
+    else:
+        write_to_bash_profile(alias,pwd)
+        print("Update the bash_profile with confirm command")
 
 _main_()
 
